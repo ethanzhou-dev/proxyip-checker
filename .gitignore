@@ -1,0 +1,14 @@
+# 忽略所有文件
+*
+
+# 只上传以下文件
+!.gitignore
+!check_proxy_gui.py
+!dist/
+!dist/ProxyIPChecker.exe
+
+# PyInstaller 构建产物
+build/
+*.spec
+__pycache__/
+*.pyc
